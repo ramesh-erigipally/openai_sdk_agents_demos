@@ -1,0 +1,4 @@
+uv venv
+uv pip install <>
+
+uv pip run basic_agent.py 
