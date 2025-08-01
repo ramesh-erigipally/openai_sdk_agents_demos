@@ -1,0 +1,45 @@
+uv venv
+uv pip install <>
+uv pip run basic_agent.py 
+
+===============
+
+##Git Init
+echo "# openai_sdk_agents_demos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ramesh-erigipally/openai_sdk_agents_demos.git
+git push -u origin main
+
+##Git push
+git remote add origin https://github.com/ramesh-erigipally/openai_sdk_agents_demos.git
+git branch -M main
+git push -u origin main
+
+===============
+
+Things  leaned,
+basic_agent
+    Git init, push to repo
+    Basic Agent SDK using 
+    Track using
+
+==========
+Cold_emails_agents:  Agentic Framework project!!
+build a simple Agent system for generating cold sales outreach emails:
+things learned : Agent workflow, Use of tools to call functions, Agent collaboration via Tools and Handoffs
+
+
+
+===================
+Used Gamil APp passwordk instated of reguler gmail password.
+Use an App Password
+Go to https://myaccount.google.com/apppasswords
+Sign in and complete 2FA if prompted.
+Select: App → "Mail"
+Device → "Other" → Enter a name like PythonEmailSender
+Click Generate.
+Copy the 16-character password.
+

@@ -6,8 +6,8 @@ load_dotenv(override=True)
 
 async def main():
     agent = Agent(
-        "Motivator",
-        instructions="You are a greate philosopher",
+        name="Motivator",
+        instructions="You are a greate philosophers",
         model="gpt-4o-mini"
     )
     with trace("Every Day Motivation"):
